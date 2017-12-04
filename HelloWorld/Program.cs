@@ -11,6 +11,10 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+            String planet;
+            planet = string.Format("Hello {0}", "Mars");
+            Console.WriteLine(planet);
+
         }
     }
 }
